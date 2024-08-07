@@ -14,12 +14,12 @@ pip install mitmproxy
 ```
 
 ### Usage
-Open mitmproxy.py with notepad++ or any text code editor <br>
+Open mitmproxyserver.py with notepad++ or any text code editor <br>
 Change https://yourrerfer.com to the url of the referer you want to use <br>
-Open cmd/terminal window at the location of mitmproxy.py <br>
+Open cmd/terminal window at the location of mitmproxyserver.py <br>
 Enter the following command changing IP to machine running script and what ever port you want to use
 ```
-mitmproxy -s mitmproxy.py --listen-host 192.168.1.123 --listen-port 6088
+mitmproxy -s mitmproxyserver.py --listen-host 192.168.1.123 --listen-port 6088
 ```
 
 ### Intergrate with Threadfin
@@ -41,7 +41,7 @@ Double check everything should be automatically mapped assuming the id tags in y
 Add the threadfin m3u/epg address into your player
 
 ### Multiple Instances
-Just copy and rename mitmproxy.py to something else <br>
+Just copy and rename mitmproxyserver.py to something else <br>
 Make any changes to the referer in the file <br>
 Enter the command to start mitproxy changing the file name and port number <br>
 
