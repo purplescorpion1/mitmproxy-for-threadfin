@@ -3,8 +3,8 @@
 
 ### Requirements
 Threadfin version 1.2.0 or higher <br>
-python version 3 with pip (tested on 3.12.3) <br>
-<br>
+python version 3 with pip (tested on 3.12.3)
+
 ### Install
 ```
 git clone https://github.com/purplescorpion1/mitproxy-for-threadfin.git
