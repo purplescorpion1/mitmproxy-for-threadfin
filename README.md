@@ -1,4 +1,4 @@
-# mitproxy-for-threadfin
+# mitmproxy-for-threadfin
 ## Referer proxy server injector for Threadfin
 
 ### Requirements
