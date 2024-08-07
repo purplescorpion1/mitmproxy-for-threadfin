@@ -43,5 +43,5 @@ Add the threadfin m3u/epg address into your player
 ### Multiple Instances
 Just copy and rename mitmproxyserver.py to something else <br>
 Make any changes to the referer in the file <br>
-Enter the command to start mitproxy changing the file name and port number <br>
+Enter the command to start mitmproxy changing the file name and port number <br>
 
