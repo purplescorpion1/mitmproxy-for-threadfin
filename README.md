@@ -39,3 +39,9 @@ Save the playlist <br>
 Double check everything should be automatically mapped assuming the id tags in your EPG match your Playlist. If not you will need to map all your channels <br>
 <br>
 Add the threadfin m3u/epg address into your player
+
+### Multiple Instances
+Just copy and rename mitproxy.py to something else <br>
+Make any changes to the referer in the file <br>
+Enter the command to start mitproxy changing the file name and port number <br>
+
