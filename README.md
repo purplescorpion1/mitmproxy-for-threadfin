@@ -7,7 +7,7 @@ python version 3 with pip (tested on 3.12.3)
 
 ### Install
 ```
-git clone https://github.com/purplescorpion1/mitproxy-for-threadfin.git
+git clone https://github.com/purplescorpion1/mitmproxy-for-threadfin.git
 ``` 
 ```
 pip install mitmproxy
@@ -16,10 +16,10 @@ pip install mitmproxy
 ### Usage
 Open mitproxy.py with notepad++ or any text code editor <br>
 Change https://yourrerfer.com to the url of the referer you want to use <br>
-Open cmd/terminal window at the location of mitproxy.py <br>
+Open cmd/terminal window at the location of mitmproxy.py <br>
 Enter the following command changing IP to machine running script and what ever port you want to use
 ```
-mitmproxy -s mitproxy.py --listen-host 192.168.1.123 --listen-port 6088
+mitmproxy -s mitmproxy.py --listen-host 192.168.1.123 --listen-port 6088
 ```
 
 ### Intergrate with Threadfin
@@ -41,7 +41,7 @@ Double check everything should be automatically mapped assuming the id tags in y
 Add the threadfin m3u/epg address into your player
 
 ### Multiple Instances
-Just copy and rename mitproxy.py to something else <br>
+Just copy and rename mitmproxy.py to something else <br>
 Make any changes to the referer in the file <br>
 Enter the command to start mitproxy changing the file name and port number <br>
 
