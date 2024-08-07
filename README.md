@@ -14,7 +14,7 @@ pip install mitmproxy
 ```
 
 ### Usage
-Open mitproxy.py with notepad++ or a any text code editor <br>
+Open mitproxy.py with notepad++ or any text code editor <br>
 Change https://yourrerfer.com to the url of the referer you want to use <br>
 Open cmd/terminal window at the location of mitproxy.py <br>
 Enter the following command changing IP to machine running script and what ever port you want to use
