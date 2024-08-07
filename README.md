@@ -26,7 +26,7 @@ mitmproxy -s mitproxy.py --listen-host 192.168.1.123 --listen-port 6088
 
 Download the latest version of threadfin - Min version required is 1.2.0 <br>
 Make sure the buffer in settings is ffmpeg (maybe a 4mb buffer) and you have pointed to your ffmepeg binary file <br>
-Set tuners in settings to 10 (you need to do above first before you can set number of tuners) <br>
+Set tuners in settings to at least 2 (you need to do above first before you can set number of tuners) <br>
 
 Assuming you have already loaded your EPG urls ready for your playlist <br>
 
