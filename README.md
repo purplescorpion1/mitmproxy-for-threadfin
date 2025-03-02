@@ -26,10 +26,11 @@ mitmproxy -s mitmproxyserver.py --listen-host 192.168.1.123 --listen-port 6088
 
 Download the latest version of threadfin from https://github.com/Threadfin/Threadfin - Min version required is 1.2.0 <br>
 Make sure the buffer in settings is ffmpeg (maybe a 4mb buffer) and you have pointed to your ffmepeg binary file <br>
+Note latest version of threadfin you set buffer type in playlist settings <br>
 Set tuners in settings to at least 2 (you need to do above first before you can set number of tuners) <br>
-
+<br>
 Assuming you have already loaded your EPG urls ready for your playlist <br>
-
+<br>
 Load your m3u into threadfin <br>
 Give it at least 2 tuners <br>
 Under HTTP Proxy IP: put the IP that mitmproxy is on eg 192.168.1.123 <br>
